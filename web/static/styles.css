@@ -1,0 +1,161 @@
+/*
+
+made by lilyscripts
+https: //discord.gg/S4NHgEVmxy
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    text-align: center;
+    transition: 0.3s;
+    user-select: none;
+}
+
+body {
+    align-items: center;
+    background: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+noscript {
+    color: red;
+    font-size: large;
+    font-weight: 400;
+}
+
+.form, .result {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.refreshed_cookie {
+    font-size: small;
+    height: 200px;
+    max-width: 400px;
+    resize: none;
+    width: calc(100% - 40px);
+}
+
+.refreshed_cookie::-webkit-scrollbar {
+    width: 1em;
+} 
+
+.refreshed_cookie::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.title {
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.note {
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+
+.cookie {
+    font-size: small;
+}
+
+.refresh, .copy, .retry {
+    font-size: medium;
+}
+
+.cookie, .refresh, .copy, .retry, .refreshed_cookie {
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.refresh:hover, .copy:hover, .retry:hover {
+    background: white;
+    color: black;
+}
+
+.discord {
+    background: none;
+    border: none;
+    bottom: 20px;
+    color: white;
+    opacity: 0.3;
+    position: fixed;
+    right: 20px;
+}
+
+.discord:hover {
+    opacity: 1;
+}
+
+.credits {
+    bottom: 20px;
+    color: white;
+    opacity: 0.3;
+    position: fixed;
+}
+
+.credits:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 800px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .note, noscript {
+        font-size: x-large;
+    }
+
+    .cookie, .refreshed_cookie {
+        font-size: medium;
+    }
+
+    .refresh, .copy, .retry {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .title {
+        font-size: x-large;
+    }
+
+    .note, noscript {
+        font-size: medium;
+    }
+
+    .cookie, .refreshed_cookie {
+        font-size: x-small;
+    }
+
+    .refresh, .copy, .retry {
+        font-size: small;
+    }
+}
