@@ -5,6 +5,6 @@ please run and install python from this page: https://www.python.org/downloads/
 open a new console and run "pip install -r requirements. txt" (without the quotes)
 
 3. run the site
-double click run.bat or run "python ./app.py"
+open a new console and run "python ./app.py"
 
 now you're done! please leave some credits :)
